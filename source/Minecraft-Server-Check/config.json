@@ -1,0 +1,29 @@
+{
+    "name": "Minecraft Server Check",
+    "version" : "1.0.0",
+    "description": "This plugin can measure the status of Minecraft server",
+    "createdBy": "ostrichb",
+    "appcast": "https://github.com/hereappdev/Here-Third-Party-Plugins/raw/master/source/Minecraft-Server-Check/appcast.xml",
+    "displayOn": [
+        "mini",
+        "menubar"
+    ],
+    "website": "https://ostrichbeta.me/",
+    "identifier": "app.here.ostrichb.mcservercheck",
+    "script": "index.js",
+    "icon": "icon.png",
+    "preferences": [
+        {
+            "title": "Server IP+Port/Address",
+            "type": "text",
+            "key": "srvLocat",
+            "default": "M.xbottle.top"
+        },
+        {
+            "title": "Query Cooldown (in seconds)",
+            "type": "text",
+            "key": "coolDown",
+            "default": "60"
+        }
+    ]
+}
