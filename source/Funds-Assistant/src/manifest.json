@@ -1,0 +1,19 @@
+{
+   "background": {
+      "scripts": [ "bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "logo.png",
+      "default_popup": "index.html"
+   },
+   "content_security_policy": "script-src 'self' https://jic.talkingdata.com; object-src 'self';",
+   "description": "时刻关注你的基金！",
+   "icons": {
+      "128": "logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsUOMLq/AJEpMeZo9iLNRKTx16hmSq4AIk0TdnTfjfNsF6qgXTU/GEekCHQV7g1FGYzCQiZcUxP32ol/VCtOM121fIYb3a0h0Z68U8ntpjObmQfIuBXoylKJQIfa099kJgqUEsZvNZNtLpYjx1/x48SNK+0+tfSXxbPGF5IRIWi8gH+hMFobyTHvB0X4QQFegSBSCUUJIODSv81179VFyzvH9Itke6eROVfl4k11g2BlrVQOpRfp08NptZAK0nFc0UhWSeycmnR9JHYvxBTeLfj5L1Jj3E1cmeNPF08S+yz7BYAQTS4+FMazJBjhnGDKcWKxeQrVuMkeZnwGEwIrgXQIDAQAB",
+   "manifest_version": 2,
+   "name": "基金助手",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.4.0"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "基金助手",
+    "version": "1.0.0",
+    "description": "时刻关注你的基金！",
+    "icon": "icon.png",
+    "identifier": "app.cyberfei.fundsassistant",
+    "createdBy": "CyberFei",
+    "website": "https://chrome.google.com/webstore/detail/%E5%9F%BA%E9%87%91%E5%8A%A9%E6%89%8B/jikclepdllhnflmfbchiepgkhcdkddgb",
+    "appcast": "https://raw.githubusercontent.com/hereappdev/Here-Third-Party-Plugins/master/source/Funds-Assistant/appcast.xml",
+    "script": "index.js",
+    "defaultCategory": "news",
+    "displayOn": ["mini"]
+}
